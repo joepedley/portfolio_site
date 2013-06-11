@@ -1,0 +1,148 @@
+/*UNIVERSAL*/
+
+body{
+	width: 100%;
+	height: 100%;
+}
+
+.slide {
+    background-attachment: fixed;
+    width:100%;
+    height:100%;
+    position: relative;
+    box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);
+}
+
+/*HEADER*/
+
+header{
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	z-index: 1;
+}
+
+header section{
+	width: 100%;
+	height: 125px;
+	background: red;
+	padding-top: 25px;
+}
+
+#logo{
+	width: 250px;
+	height: 100px;
+	background: blue;
+	margin: 0 auto;
+}
+
+nav{
+	width: 60%;
+	height: 40px;
+	background: orange;
+	margin: 0 auto;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	padding: 5px;
+}
+
+header ul li{
+	float: left;
+	margin-right: 25px;
+}
+
+/*HOME*/
+
+#slide1{
+	background: purple;
+	height: 450px;
+	padding-top: 100px;
+	margin-top: 150px;
+}
+
+#home{
+	width: 75%;
+	height: 300px;
+	background: blue;
+	margin: 0 auto;
+	padding: 20px;
+
+}
+
+#quote{
+	width: 40%;
+	height: 300px;
+	background: red;
+	float: left;
+	margin-right: 25px;
+}
+
+#homeDis{
+}
+
+/*MY WORK*/
+
+#slide2{
+	background: pink;
+	height: 450px;
+	padding-top: 150px;
+}
+
+#work{
+	width: 75%;
+	background: orange;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+#work h2{
+	font-size: 35px;
+	margin-bottom: 25px
+}
+
+.thumb{
+	height: 140px;
+	width: 140px;
+	background: blue;
+	float: left;
+	margin-right: 50px;
+	margin-bottom: 25px;
+}
+
+#description{
+	width: 100%;
+	background: brown;
+	height: 100px;
+	clear:both;
+}
+
+/*RESUME*/
+
+#slide3{
+	background: yellow;
+	height: 450px;
+	padding-top: 150px;
+}
+
+/*CONTACT ME*/
+
+#slide4{
+	background: green;
+	height: 450px;
+	padding-top: 150px;
+}
+
+/*define style that should only happen if the screen is between 421px to 760px wide */
+@media screen and (min-width:421px) and (max-width:760px){
+
+}
+
+/*define style that should only happen if the screen is between 761px to 960px wide */
+@media screen and (min-width:761px) and (max-width:960px){
+
+}
+
+/*define style that should only happen if the screen is above 961 */
+@media screen and (min-width:961px){
+
+}
